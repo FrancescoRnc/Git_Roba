@@ -3,6 +3,11 @@ SUFFIXES = ['KB', 'MB', 'GB', 'PB', 'EB', 'ZB', 'YB']
 def appriximate_size(size):
     '''
     Convert a file size to a human readable form.
+    
+    Keyword arguments:
+    size -- file size in bytes
+
+    Returns: string
     '''
     multiple = 1024
     for suffix in SUFFIXES:
