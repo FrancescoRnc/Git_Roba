@@ -6,5 +6,5 @@ def appriximate_size(size):
         size /= multiple
         if size < multiple:
             return '{} {}'.format(size, suffix)
-
             # format string
+    raise ValueError('number too large')
