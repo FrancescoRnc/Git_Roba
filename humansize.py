@@ -1,6 +1,6 @@
 SUFFIXES = ['KB', 'MB', 'GB', 'PB', 'EB', 'ZB', 'YB']
 
-def appriximate_size(size):
+def appriximate_size(size = 10000):
     '''
     Convert a file size to a human readable form.
     
